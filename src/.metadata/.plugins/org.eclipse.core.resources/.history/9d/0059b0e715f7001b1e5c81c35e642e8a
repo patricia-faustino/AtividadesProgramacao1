@@ -1,7 +1,6 @@
 package br.unicesumar.modulo3.exemploaula7;
 
 public class Carro {
-
 	private String modelo;
 	
 	private int quantidadePorta;
@@ -12,14 +11,8 @@ public class Carro {
 	
 	private boolean estaAcelerando = false;
 	
-	public Carro(String modelo, String motor) {
-		this.setModelo(modelo);
-		this.setMotor(motor);
-	}
-
-	
 	public Carro(String placa) {
-		this.setPlaca(placa);
+		this.placa = placa;
 	}
 	
 	public Carro() {
