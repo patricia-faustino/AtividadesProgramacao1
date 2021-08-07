@@ -9,6 +9,7 @@ public class PrincipalCrro {
 		
 		carro.setQuantidadePorta(4);
 		
+		carro.setMarca("BMW");
 		
 		Carro carro2 = new Carro("QWE 4321");
 		
@@ -16,6 +17,7 @@ public class PrincipalCrro {
 		
 		carro2.setQuantidadePorta(4);
 		
+		carro2.setMarca("VW");
 		
 		System.out.println(carro.getInformacoes());
 		System.out.println(carro2.getInformacoes());
