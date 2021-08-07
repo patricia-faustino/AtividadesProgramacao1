@@ -12,7 +12,7 @@ public class Carro {
 	
 	private boolean estaAcelerando = false;
 
-	private static final String marca = "BMW";
+	private static final String MARCA = "BMW";
 	
 	public Carro(String modelo, String motor) {
 		this.setModelo(modelo);
@@ -61,14 +61,14 @@ public class Carro {
 	
 	
 	public static String getMarca() {
-		return marca;
+		return MARCA;
 	}
-
 
 
 	public String getInformacoes() {
-		return "{ Marca: " + marca + ", modelo: " + modelo + ", placa: " + placa + " }";
+		return "{ Marca: " + MARCA + ", modelo: " + modelo + ", placa: " + placa + " }";
 	}
+	
 	public void acelerar() {
 		estaAcelerando = true;
 		if(motor == null)
